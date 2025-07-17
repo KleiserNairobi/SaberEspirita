@@ -10,26 +10,30 @@
         margin: 0;
         padding: 20px;
         line-height: 1.6;
-        color: #333;
+        color: #d8dde5; /* titleNormal */
         max-width: 800px;
         margin-left: auto;
         margin-right: auto;
-        background-color: #f8f9fa;
+        background: linear-gradient(
+          to bottom,
+          #1f2933,
+          #323f4b
+        ); /* backGradientStart to backGradientEnd */
       }
       h1 {
-        color: #2c3e50;
+        color: #f0f5fb; /* titleBold */
         text-align: center;
         margin-bottom: 30px;
         font-size: 28px;
         font-weight: 500;
       }
       h2 {
-        color: #2c3e50;
+        color: #f0f5fb; /* titleBold */
         margin-top: 30px;
         padding-bottom: 8px;
         font-size: 22px;
         font-weight: 500;
-        border-bottom: 1px solid #e0e0e0;
+        border-bottom: 1px solid #52606d; /* optionNormalBorder */
       }
       p {
         margin-bottom: 16px;
@@ -46,25 +50,26 @@
         font-size: 15px;
       }
       strong {
-        color: #2c3e50;
+        color: #f0f5fb; /* titleBold */
         font-weight: 500;
       }
       em {
         font-style: normal;
         font-weight: bold;
-        color: #e74c3c;
+        color: #f4a000; /* accented */
       }
       .last-updated {
         text-align: right;
         margin-top: 40px;
         font-size: 14px;
-        color: #7f8c8d;
+        color: #9aa5b1; /* bottonNavigationTitle */
       }
       .container {
-        background-color: white;
+        background-color: #3e4c59; /* terciary / cardQuizBackground */
         border-radius: 10px;
         padding: 25px;
-        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        border: 1px solid #52606d; /* optionNormalBorder */
       }
       @media (max-width: 600px) {
         body {
@@ -105,8 +110,9 @@
       </p>
       <ul>
         <li>
-          <strong>Apelido (obrigatório):</strong> Usado para sua identificação
-          dentro do aplicativo, placares e para personalizar sua experiência.
+          <strong>Apelido/Nome (obrigatório):</strong> Usado para sua
+          identificação dentro do aplicativo, placares e para personalizar sua
+          experiência.
         </li>
         <li>
           <strong>Endereço de e-mail (obrigatório):</strong> Usado para login,
@@ -117,12 +123,6 @@
         <li>
           <strong>Senha (obrigatória):</strong> Armazenada de forma
           criptografada para proteger o acesso à sua conta.
-        </li>
-        <li>
-          <strong>Nome (opcional):</strong> Caso você opte por fornecê-lo, este
-          dado poderá ser utilizado para personalização de comunicações futuras
-          (ex: e-mails de boas-vindas). Não será usado para rastrear ou
-          identificar você dentro do aplicativo.
         </li>
       </ul>
 
@@ -217,7 +217,7 @@
       </p>
 
       <p class="last-updated">
-        <strong>Última Atualização:</strong> 22/06/2025
+        <strong>Última Atualização:</strong> 01/07/2025
       </p>
     </div>
   </body>
