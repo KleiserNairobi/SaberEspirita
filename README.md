@@ -1,1 +1,3 @@
 # SaberEspirita
+
+## Política de Privacidade
